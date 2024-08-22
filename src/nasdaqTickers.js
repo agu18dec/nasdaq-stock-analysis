@@ -10,3 +10,5 @@ export const nasdaqTickers = [
     { value: 'INTC', label: 'Intel Corporation' },
     { value: 'CSCO', label: 'Cisco Systems Inc.' },
   ];
+
+// RGQ1MLPXAYL2TDC4
