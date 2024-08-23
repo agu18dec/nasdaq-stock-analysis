@@ -1,0 +1,11 @@
+
+
+services:
+  - type: web
+    name: nasdaq-analysis
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: RGQ1MLPXAYL2TDC4
+        sync: false

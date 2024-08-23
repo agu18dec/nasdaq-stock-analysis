@@ -67,7 +67,7 @@ app.get('/api/stock-data', async (req, res) => {
         function: 'TIME_SERIES_DAILY',
         symbol: ticker,
         outputsize: 'full',
-        apikey: 'YOUR_ALPHA_VANTAGE_API_KEY'  // Replace with your actual API key
+        apikey: 'RGQ1MLPXAYL2TDC4'  // Replace with your actual API key
       }
     });
 
