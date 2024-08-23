@@ -1,5 +1,4 @@
 
-
 services:
   - type: web
     name: nasdaq-analysis
@@ -7,5 +6,5 @@ services:
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
-      - key: RGQ1MLPXAYL2TDC4
+      - key: ALPHA_VANTAGE_API_KEY
         sync: false
